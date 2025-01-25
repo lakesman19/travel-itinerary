@@ -1,5 +1,5 @@
 import { image } from '@/lib'
-import { Bed, Building, MapPin, StarIcon, XIcon, Ghost, GlassWater, Calendar1 } from 'lucide-react'
+import { Bed, Building, MapPin, StarIcon, XIcon, Ghost, GlassWater, Calendar1, ChevronRight, ChevronLeft } from 'lucide-react'
 import Image from 'next/image'
 import React from 'react'
 
@@ -22,8 +22,18 @@ const HotelCards = () => {
             <div className="flex flex-col gap-6">
                 <div className="flex w-full h-[274px]">
                     <div className="bg-white flex p-4 gap-3 w-[98%] h-full ">
-                        <div className="h-full w-[232px]">
+                        <div className="h-full w-[232px] relative">
                             <Image src={image.hotel} alt="icon" className='h-full w-full' />
+                            <div className="flex justify-between items-center absolute top-[40%] left-0 right-0 p-2">
+                                <span className="bg-white p-1 rounded-full">
+                                    <ChevronLeft />
+                                </span>
+                                <span className="bg-white p-1 rounded-full">
+                                    <ChevronRight />
+
+                                </span>
+                            </div>
+
                         </div>
                         <div className="w-full flex gap-4 flex-col">
                             <div className="flex justify-between items-center w-full">
@@ -102,8 +112,17 @@ const HotelCards = () => {
                 </div>
                 <div className="flex w-full h-[274px]">
                     <div className="bg-white flex p-4 gap-3 w-[98%] h-full ">
-                        <div className="h-full w-[232px]">
-                            <Image src={image.hotel} alt="icon" className='h-full w-full' />
+                        <div className="h-full w-[232px] relative">
+                            <Image src={image.hotel} alt="icon" className='h-full w-full ' />
+                            <div className="flex justify-between items-center absolute top-[40%] left-0 right-0 p-2">
+                                <span className="bg-white p-1 rounded-full">
+                                    <ChevronLeft />
+                                </span>
+                                <span className="bg-white p-1 rounded-full">
+                                    <ChevronRight />
+
+                                </span>
+                            </div>
                         </div>
                         <div className="w-full flex gap-4 flex-col">
                             <div className="flex justify-between items-center w-full">

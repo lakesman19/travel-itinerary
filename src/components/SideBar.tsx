@@ -4,6 +4,7 @@ import { icons } from "../lib";
 import Link from "next/link";
 import Image from "next/image";
 import { usePathname } from "next/navigation";
+import { ChevronDown, ChevronUp } from "lucide-react";
 Link;
 const SideBar = () => {
   const sidebarLinks = [
@@ -45,7 +46,7 @@ const SideBar = () => {
   ];
   const pathname = usePathname()
   return (
-    <div className="w-64 bg-white border  flex fixed flex-col justify-between border-r h-[calc(100vh-90px)] p-4 top-[100px] pb-16">
+    <div className="w-[300px] bg-white border  flex fixed flex-col justify-between border-r h-[calc(100vh-90px)] p-4 top-[100px] pb-16">
       <nav className="space-y-2">
         {sidebarLinks.map(({ href, icon, label }) => (
           <Link
@@ -59,11 +60,15 @@ const SideBar = () => {
         ))}
       </nav>
 
-      <div className="mt-8 p-4 bg-[#F0F2F5] rounded-lg">
+      <div className="mt-8 p-4 bg-[#F0F2F5] rounded-lg flex justify-between gap-2">
         <div className="flex items-center space-x-2">
           <span className="text-white text-[16px] font-[500] h-[50px] flex justify-center items-center p-2 w-[50px] bg-[#0D6EFD] rounded-[4px]">Go</span>
-          <span className="text-gray-600 text-[14px] font-[500]">Personal Account</span>
+          <span className="text-[#667185] text-[14px] font-[500]">Personal Account</span>
         </div>
+        <span className="text-[10px] font-[500] text-[#667185]">
+          <ChevronUp width={10} />
+          <ChevronDown width={10} />
+        </span>
       </div>
     </div>
   );

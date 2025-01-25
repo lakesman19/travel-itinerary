@@ -25,7 +25,7 @@ export default function RootLayout({
           <Header />
           <div className="w-[95%] flex pt-[100px]  ">
             <SideBar />
-            <main className="w-full md:pl-[260px]  flex justify-center  ">
+            <main className="w-full md:pl-[350px]  flex justify-center  ">
               {children}
             </main>
           </div>
