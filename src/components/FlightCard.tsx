@@ -9,7 +9,7 @@ interface FlightItineraryProps {
 }
 const FlightCard = ({ flights, onRemoveFlight, onAddFlight }: FlightItineraryProps) => {
     return (
-        <div className='bg-[#F0F2F5]  w-[100%] p-5 flex  flex-col'>
+        <div className='bg-[#F0F2F5]  w-[100%] p-5 flex rounded-sm  flex-col'>
             <div className="flex justify-between items-center mb-4">
                 <div className="flex items-center space-x-2">
                     <Plane className="w-5 h-5" />
@@ -26,7 +26,7 @@ const FlightCard = ({ flights, onRemoveFlight, onAddFlight }: FlightItineraryPro
             <div className="flex flex-col gap-6">
                 {flights.map((flight: any) => (
                     <div className="flex w-full h-[274px]">
-                        <div className="bg-white flex flex-col w-[98%] h-full ">
+                        <div className="bg-white flex flex-col rounded-sm w-[100%] h-full ">
                             <div className="flex justify-between items-center py-4 px-3">
                                 <div className="flex items-center w-[30%]">
                                     <Image src={icons.americalogo} alt='icon' />
@@ -68,46 +68,46 @@ const FlightCard = ({ flights, onRemoveFlight, onAddFlight }: FlightItineraryPro
                             </div>
                             <div className="border-b border-t  py-4 px-3">
                                 <div className="text-sm text-gray-600 mb-2">Facilities:</div>
-                                <div className="flex items-center space-x-6">
-                                    <div className="flex items-center space-x-2 text-sm text-gray-600">
-                                        <Luggage className="w-4 h-4" />
+                                <div className="flex items-center space-x-6 text-[#647995] font-medium">
+                                    <div className="flex items-center space-x-2 text-lg ">
+                                        <Luggage className="w-4 h-4" color={"#475367"} />
                                         <span>Baggage: 20kg, Cabin Baggage: 8kg</span>
                                     </div>
-                                    <div className="flex items-center space-x-2 text-sm text-gray-600">
-                                        <Tv className="w-4 h-4" />
+                                    <div className="flex items-center space-x-2 text-lg ">
+                                        <Tv className="w-4 h-4" color='#475367' />
                                         <span>In flight entertainment</span>
                                     </div>
-                                    <div className="flex items-center space-x-2 text-sm text-gray-600">
-                                        <Utensils className="w-4 h-4" />
+                                    <div className="flex items-center space-x-2 text-lg ">
+                                        <Utensils className="w-4 h-4 " color='#475367' />
                                         <span>In flight meal</span>
                                     </div>
-                                    <div className="flex items-center space-x-2 text-sm text-gray-600">
-                                        <UsbIcon className="w-4 h-4" />
+                                    <div className="flex items-center space-x-2 text-lg">
+                                        <UsbIcon className="w-4 h-4" color='#475367' />
                                         <span>USB Port</span>
                                     </div>
                                 </div>
                             </div>
 
                             <div className="flex justify-between items-center  py-4 px-3">
-                                <div className="flex gap-6 items-center">
-                                    <p className="text-blue-600">
+                                <div className="flex gap-6 items-center font-medium">
+                                    <p className="text-[#0D6EFD]">
                                         Flight details
                                     </p>
-                                    <p className="text-blue-600">
+                                    <p className="text-[#0D6EFD]">
                                         Price details
                                     </p>
                                 </div>
 
-                                <p className="text-blue-600">
+                                <p className="text-[#0D6EFD] font-medium">
                                     Edit details
                                 </p>
                             </div>
                         </div>
-                        <span className='h-full w-[2%] items-center justify-center bg-[#FBEAE9]'>
-                            <button className=" text-[#9E0A05] h-full">
-                                <XIcon />
-                            </button>
-                        </span>
+
+                        <button className=" text-[#9E0A05] h-full flex w-[46px] items-center justify-center bg-[#FBEAE9]">
+                            <XIcon />
+                        </button>
+
                     </div>
 
                 ))}

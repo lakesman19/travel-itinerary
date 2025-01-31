@@ -21,7 +21,7 @@ const HotelCards = () => {
             </div>
             <div className="flex flex-col gap-6">
                 <div className="flex w-full h-[274px]">
-                    <div className="bg-white flex p-4 gap-3 w-[98%] h-full ">
+                    <div className="bg-white flex p-4 gap-3 w-[100%] h-full ">
                         <div className="h-full w-[232px] relative">
                             <Image src={image.hotel} alt="icon" className='h-full w-full' />
                             <div className="flex justify-between items-center absolute top-[40%] left-0 right-0 p-2">
@@ -104,14 +104,14 @@ const HotelCards = () => {
                         </div>
 
                     </div>
-                    <span className='h-full w-[2%] items-center justify-center bg-[#FBEAE9]'>
-                        <button className=" text-[#9E0A05] h-full">
-                            <XIcon />
-                        </button>
-                    </span>
+
+                    <button className=" text-[#9E0A05] flex h-full w-[46px] items-center justify-center bg-[#FBEAE9]">
+                        <XIcon />
+                    </button>
+
                 </div>
                 <div className="flex w-full h-[274px]">
-                    <div className="bg-white flex p-4 gap-3 w-[98%] h-full ">
+                    <div className="bg-white flex p-4 gap-3 w-[100%] h-full ">
                         <div className="h-full w-[232px] relative">
                             <Image src={image.hotel} alt="icon" className='h-full w-full ' />
                             <div className="flex justify-between items-center absolute top-[40%] left-0 right-0 p-2">
@@ -193,11 +193,11 @@ const HotelCards = () => {
                         </div>
 
                     </div>
-                    <span className='h-full w-[2%] items-center justify-center bg-[#FBEAE9]'>
-                        <button className=" text-[#9E0A05] h-full">
-                            <XIcon />
-                        </button>
-                    </span>
+
+                    <button className=" text-[#9E0A05] flex h-full w-[46px] items-center justify-center bg-[#FBEAE9]">
+                        <XIcon />
+                    </button>
+
                 </div>
             </div>
 

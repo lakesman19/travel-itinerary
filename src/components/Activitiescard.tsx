@@ -21,7 +21,7 @@ const Activitiescard = () => {
             </div>
             <div className="flex flex-col gap-6">
                 <div className="flex w-full h-[274px]">
-                    <div className="bg-white flex p-4 gap-3 w-[98%] h-full ">
+                    <div className="bg-white flex p-4 gap-3 w-[100%] h-full ">
                         <div className="h-full w-[232px] relative">
                             <Image src={image.activities} alt="icon" className='h-full w-full' />
                             <div className="flex justify-between items-center absolute top-[40%] left-0 right-0 p-2">
@@ -61,26 +61,25 @@ const Activitiescard = () => {
                             </div>
                             <div className="border-b border-t flex justify-between gap-3 items-center py-3">
                                 <div className="flex gap-3 items-center">
-                                    <div className="text-sm text-gray-600">What's Included:</div>
+                                    <div className="text-lg text-[#647995] font-medium">What's Included:</div>
                                     <div className="flex items-center space-x-6">
-                                        <div className="flex items-center space-x-2 text-sm text-gray-600">
+                                        <div className="flex items-center space-x-2 text-lg text-[#647995] font-medium">
 
                                             <span>Admission to the Empire State Building</span>
                                         </div>
-                                        <div className="flex items-center space-x-2 text-sm text-[#0D6EFD]">
+                                        <div className="flex items-center space-x-2 text-lg  font-medium text-[#0D6EFD]">
                                             See more
                                         </div>
 
                                     </div>
                                 </div>
                                 <div className="flex gap-2 text-[#647995] text-[18px]">
-                                    <div className=" text-sm text-white rounded-[4px] p-2 flex justify-center items-center bg-[#0A369D]">
-
+                                    <div className=" text-sm text-white rounded-[4px] p-1 flex justify-center items-center bg-[#0A369D]">
                                         Day 1 - (2)
                                     </div>
-                                    <div className="flex flex-col gap-2 items-center">
-                                        <CircleChevronUp />
-                                        <CircleChevronDown />
+                                    <div className="flex flex-col gap-1 items-center">
+                                        <CircleChevronUp size={"16px"} />
+                                        <CircleChevronDown size={"16px"} />
                                     </div>
                                 </div>
                             </div>
@@ -102,14 +101,14 @@ const Activitiescard = () => {
                         </div>
 
                     </div>
-                    <span className='h-full w-[2%] items-center justify-center bg-[#FBEAE9]'>
-                        <button className=" text-[#9E0A05] h-full">
-                            <XIcon />
-                        </button>
-                    </span>
+
+                    <button className=" text-[#9E0A05] h-full flex w-[46px] items-center justify-center bg-[#FBEAE9]">
+                        <XIcon />
+                    </button>
+
                 </div>
                 <div className="flex w-full h-[274px]">
-                    <div className="bg-white flex p-4 gap-3 w-[98%] h-full ">
+                    <div className="bg-white flex p-4 gap-3 w-[100%] h-full ">
                         <div className="h-full w-[232px] relative">
                             <Image src={image.activities} alt="icon" className='h-full w-full' />
                             <div className="flex justify-between items-center absolute top-[40%] left-0 right-0 p-2">
@@ -149,26 +148,25 @@ const Activitiescard = () => {
                             </div>
                             <div className="border-b border-t flex justify-between gap-3 items-center py-3">
                                 <div className="flex gap-3 items-center">
-                                    <div className="text-sm text-gray-600">What's Included:</div>
+                                    <div className="text-lg text-[#647995] font-medium">What's Included:</div>
                                     <div className="flex items-center space-x-6">
-                                        <div className="flex items-center space-x-2 text-sm text-gray-600">
+                                        <div className="flex items-center space-x-2 text-lg text-[#647995] font-medium">
 
                                             <span>Admission to the Empire State Building</span>
                                         </div>
-                                        <div className="flex items-center space-x-2 text-sm text-[#0D6EFD]">
+                                        <div className="flex items-center space-x-2 text-lg  font-medium text-[#0D6EFD]">
                                             See more
                                         </div>
 
                                     </div>
                                 </div>
                                 <div className="flex gap-2 text-[#647995] text-[18px]">
-                                    <div className=" text-sm text-white rounded-[4px] p-2 flex justify-center items-center bg-[#0A369D]">
-
-                                        Day 1 - (2)
+                                    <div className=" text-sm text-white rounded-[4px] p-1 flex justify-center items-center bg-[#0A369D]">
+                                        Day 2
                                     </div>
-                                    <div className="flex flex-col gap-2 items-center">
-                                        <CircleChevronUp />
-                                        <CircleChevronDown />
+                                    <div className="flex flex-col gap-1 items-center">
+                                        <CircleChevronUp size={"16px"} />
+                                        <CircleChevronDown size={"16px"} />
                                     </div>
                                 </div>
                             </div>
@@ -190,11 +188,9 @@ const Activitiescard = () => {
                         </div>
 
                     </div>
-                    <span className='h-full w-[2%] items-center justify-center bg-[#FBEAE9]'>
-                        <button className=" text-[#9E0A05] h-full">
-                            <XIcon />
-                        </button>
-                    </span>
+                    <button className=" text-[#9E0A05] h-full w-[46px] flex items-center justify-center bg-[#FBEAE9]">
+                        <XIcon />
+                    </button>
                 </div>
             </div>
         </div>

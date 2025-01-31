@@ -3,7 +3,7 @@ import Header from "@/components/Header";
 import SideBar from "@/components/SideBar";
 import { TripCard } from "@/components/TripCard";
 import Image from "next/image";
-import { ArrowLeft, MoreHorizontal, Settings, User } from "lucide-react";
+import { ArrowLeft, Calendar, MoreHorizontal, Settings, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { image } from "@/lib";
 import FlightCard from "@/components/FlightCard";
@@ -60,10 +60,13 @@ export default function Home() {
       </div>
       <div className="flex justify-between ">
         <div className="">
-          <div className="flex items-center p-2 bg-[#FEF4E6] w-[230px] text-sm text-[#7A4504]">
-            <span>{"21 March 2024"}</span>
-            <span>→</span>
-            <span>{"21 April 2024"}</span>
+          <div className="flex items-center p-1 gap-1 bg-[#FEF4E6] w-[233px] text-sm font-medium text-[#7A4504]">
+            <Calendar size={14}/>
+           <div className="">
+              <span>{"21 March 2024"}</span>
+              <span>→</span>
+              <span>{"21 April 2024"}</span>
+           </div>
           </div>
           <h2 className="text-2xl font-bold">{"Bahamas Family Trip"}</h2>
           <p className="text-gray-600">{"New York, United States of America"} · {"Solo Trip"}</p>
@@ -86,27 +89,33 @@ export default function Home() {
         </div>
       </div>
       <div className="grid grid-cols-3 gap-4 mt-8 w-[60%]">
-        <div className="bg-[#000031] p-4 rounded-lg">
+        <div className="bg-[#000031] p-4 rounded-lg hover:bg-[#1A1A4F] transition duration-300 ease-in-out">
           <h3 className="font-semibold mb-2 text-[#FFFFFF]">Activities</h3>
           <p className="text-sm text-[#FFFFFF]">Build, personalize, and optimize your itineraries with our trip planner.</p>
-          <Button className="w-full mt-4 bg-[#0D6EFD] hover:bg-[#0D6EFD]">Add Activities</Button>
+          <Button className="w-full mt-4 bg-[#0D6EFD] hover:bg-[#0056D2]">Add Activities</Button>
         </div>
-        <div className="bg-[#E7F0FF] p-4 rounded-lg">
+        <div className="bg-[#E7F0FF] p-4 rounded-lg hover:bg-[#D0E3FF] transition duration-300 ease-in-out">
           <h3 className="font-semibold mb-2">Hotels</h3>
           <p className="text-sm text-[#1D2433]">Build, personalize, and optimize your itineraries with our trip planner.</p>
-          <Button className="w-full mt-4 bg-[#0D6EFD] hover:bg-[#0D6EFD] ">Add Hotels</Button>
+          <Button className="w-full mt-4 bg-[#0D6EFD] hover:bg-[#0056D2]">Add Hotels</Button>
         </div>
-        <div className="bg-[#0D6EFD] p-4 rounded-lg text-white">
+        <div className="bg-[#0D6EFD] p-4 rounded-lg text-white hover:bg-[#0056D2] transition duration-300 ease-in-out">
           <h3 className="font-semibold mb-2">Flights</h3>
-          <p className="text-sm ">Build, personalize, and optimize your itineraries with our trip planner.</p>
-          <Button className="w-full mt-4 bg-white text-[#0D6EFD] hover:bg-white hover:text-[#0D6EFD]">Add Flights</Button>
+          <p className="text-sm">Build, personalize, and optimize your itineraries with our trip planner.</p>
+          <Button className="w-full mt-4 bg-white text-[#0D6EFD] hover:bg-gray-200 hover:text-[#0D6EFD]">Add Flights</Button>
         </div>
+      </div>
+      <div className="flex flex-col mt-12">
+        <h2 className="text-xl font-semibold">{"Trip itineraries"}</h2>
+        <p className="text-[#647995] text-md">
+          Your trip itineraries are placed here
+        </p>
       </div>
       <FlightCard flights={flights}
         onAddFlight={handleAddFlight}
         onRemoveFlight={handleRemoveFlight} />
       <HotelCards />
-      <Activitiescard/>
+      <Activitiescard />
     </div>
 
 
