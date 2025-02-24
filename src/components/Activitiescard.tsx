@@ -25,10 +25,10 @@ const Activitiescard = () => {
                         <div className="h-full w-[232px] relative">
                             <Image src={image.activities} alt="icon" className='h-full w-full' />
                             <div className="flex justify-between items-center absolute top-[40%] left-0 right-0 p-2">
-                                <span className="bg-white p-1 rounded-full">
+                                <span className="bg-white p-1 rounded-full cursor-pointer">
                                     <ChevronLeft />
                                 </span>
-                                <span className="bg-white p-1 rounded-full">
+                                <span className="bg-white p-1 rounded-full cursor-pointer">
                                     <ChevronRight />
 
                                 </span>
@@ -112,10 +112,10 @@ const Activitiescard = () => {
                         <div className="h-full w-[232px] relative">
                             <Image src={image.activities} alt="icon" className='h-full w-full' />
                             <div className="flex justify-between items-center absolute top-[40%] left-0 right-0 p-2">
-                                <span className="bg-white p-1 rounded-full">
+                                <span className="bg-white p-1 rounded-full cursor-pointer">
                                     <ChevronLeft />
                                 </span>
-                                <span className="bg-white p-1 rounded-full">
+                                <span className="bg-white p-1 rounded-full cursor-pointer">
                                     <ChevronRight />
 
                                 </span>
