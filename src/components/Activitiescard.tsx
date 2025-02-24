@@ -13,7 +13,7 @@ const Activitiescard = () => {
                 </div>
                 <p
 
-                    className="text-[#0D6EFD] rounded-[4px] bg-[white] p-3 flex justify-center items-center hover:text-[#0D6EFD]"
+                    className="text-[#0D6EFD] rounded-[4px] bg-[white] p-3 flex justify-center cursor-pointer items-center hover:text-[#0D6EFD]"
                 //   onClick={onAddFlight}
                 >
                     Add Activities

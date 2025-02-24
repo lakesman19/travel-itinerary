@@ -17,7 +17,7 @@ const FlightCard = ({ flights, onRemoveFlight, onAddFlight }: FlightItineraryPro
                 </div>
                 <p
 
-                    className="text-blue-600 bg-[white] p-3 flex justify-center items-center hover:text-blue-700 rounded-[4px]"
+                    className="text-blue-600 bg-[white] p-3 flex justify-center items-center cursor-pointer hover:text-blue-700 rounded-[4px]"
                     onClick={onAddFlight}
                 >
                     Add Flights

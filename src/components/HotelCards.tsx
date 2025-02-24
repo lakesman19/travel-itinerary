@@ -13,7 +13,7 @@ const HotelCards = () => {
                 </div>
                 <p
 
-                    className="text-[#1D2433] rounded-[4px] bg-[white] p-3 flex justify-center items-center hover:text-[#1D2433]"
+                    className="text-[#1D2433] rounded-[4px] bg-[white] cursor-pointer p-3 flex justify-center items-center hover:text-[#1D2433]"
                 //   onClick={onAddFlight}
                 >
                     Add Hotels
