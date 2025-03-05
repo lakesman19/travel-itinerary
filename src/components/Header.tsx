@@ -73,7 +73,7 @@ const Header = () => {
             </Link>
             <span className="flex items-center gap-2">
               <Image src={image.person} alt="logo" className="h-[40px] w-[40px] rounded-full" />
-              <ChevronDown size={16} color="#667185" />
+              <ChevronDown size={16} color="#667185" className="cursor-pointer" />
             </span>
           </div>
         </div>

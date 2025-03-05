@@ -53,7 +53,7 @@ export default function Home() {
     <div className="bg-white h-full  w-[95%] p-5 flex  flex-col gap-6 ">
 
       <div className="flex justify-between items-start banner mb-6 w-full h-[200px]  " >
-        <Button variant="ghost" size="icon">
+        <Button variant="ghost" size="icon" className="m-2">
           <ArrowLeft className="h-5 w-5" />
         </Button>
 
@@ -84,7 +84,7 @@ export default function Home() {
           <div className="flex gap-2">
             <Image src={image.person} alt='logo' className="h-[40px] w-[40px] rounded-full" />
 
-            <span className="border-[#E7F0FF] border-[2px] h-[40px] w-[40px]  flex justify-center items-center rounded-full"><Settings /></span>
+            <span className="border-[#E7F0FF] border-[2px] h-[40px] w-[40px] cursor-pointer  flex justify-center items-center rounded-full"><Settings /></span>
           </div>
         </div>
       </div>

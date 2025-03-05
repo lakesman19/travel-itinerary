@@ -67,7 +67,7 @@ const Activitiescard = () => {
 
                                             <span>Admission to the Empire State Building</span>
                                         </div>
-                                        <div className="flex items-center space-x-2 text-lg  font-medium text-[#0D6EFD]">
+                                        <div className="flex items-center space-x-2 text-lg  font-medium text-[#0D6EFD] cursor-pointer">
                                             See more
                                         </div>
 
@@ -86,15 +86,15 @@ const Activitiescard = () => {
 
                             <div className="flex justify-between items-center ">
                                 <div className="flex gap-6 items-center">
-                                    <p className="text-blue-600">
+                                    <p className="text-blue-600 cursor-pointer">
                                         Activities details
                                     </p>
-                                    <p className="text-blue-600">
+                                    <p className="text-blue-600 cursor-pointer">
                                         Price details
                                     </p>
                                 </div>
 
-                                <p className="text-blue-600">
+                                <p className="text-blue-600 cursor-pointer">
                                     Edit details
                                 </p>
                             </div>
@@ -133,7 +133,7 @@ const Activitiescard = () => {
                                 </div>
                             </div>
                             <div className="flex gap-6 w-full">
-                                <div className="text-[#0D6EFD] flex gap-2">
+                                <div className="text-[#0D6EFD] flex gap-2 cursor-pointer">
                                     <MapPin />
                                     <span>Directions</span>
                                 </div>
@@ -154,7 +154,7 @@ const Activitiescard = () => {
 
                                             <span>Admission to the Empire State Building</span>
                                         </div>
-                                        <div className="flex items-center space-x-2 text-lg  font-medium text-[#0D6EFD]">
+                                        <div className="flex items-center space-x-2 text-lg  font-medium text-[#0D6EFD] cursor-pointer">
                                             See more
                                         </div>
 
@@ -165,23 +165,23 @@ const Activitiescard = () => {
                                         Day 2
                                     </div>
                                     <div className="flex flex-col gap-1 items-center">
-                                        <CircleChevronUp size={"16px"} />
-                                        <CircleChevronDown size={"16px"} />
+                                        <CircleChevronUp size={"16px"} className='cursor-pointer'/>
+                                        <CircleChevronDown size={"16px"} className='cursor-pointer' />
                                     </div>
                                 </div>
                             </div>
 
                             <div className="flex justify-between items-center ">
                                 <div className="flex gap-6 items-center">
-                                    <p className="text-blue-600">
+                                    <p className="text-blue-600 cursor-pointer">
                                         Activities details
                                     </p>
-                                    <p className="text-blue-600">
+                                    <p className="text-blue-600 cursor-pointer">
                                         Price details
                                     </p>
                                 </div>
 
-                                <p className="text-blue-600">
+                                <p className="text-blue-600 cursor-pointer">
                                     Edit details
                                 </p>
                             </div>

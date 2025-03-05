@@ -90,15 +90,15 @@ const FlightCard = ({ flights, onRemoveFlight, onAddFlight }: FlightItineraryPro
 
                             <div className="flex justify-between items-center  py-4 px-3">
                                 <div className="flex gap-6 items-center font-medium">
-                                    <p className="text-[#0D6EFD]">
+                                    <p className="text-[#0D6EFD] cursor-pointer">
                                         Flight details
                                     </p>
-                                    <p className="text-[#0D6EFD]">
+                                    <p className="text-[#0D6EFD] cursor-pointer">
                                         Price details
                                     </p>
                                 </div>
 
-                                <p className="text-[#0D6EFD] font-medium">
+                                <p className="text-[#0D6EFD] font-medium cursor-pointer">
                                     Edit details
                                 </p>
                             </div>

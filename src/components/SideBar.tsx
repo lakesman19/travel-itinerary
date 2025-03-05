@@ -65,7 +65,7 @@ const SideBar = () => {
           <span className="text-white text-[16px] font-[500] h-[50px] flex justify-center items-center p-2 w-[50px] bg-[#0D6EFD] rounded-[4px]">Go</span>
           <span className="text-[#667185] text-[14px] font-[500]">Personal Account</span>
         </div>
-        <span className="text-[10px] font-[500] text-[#667185]">
+        <span className="text-[10px] font-[500] text-[#667185] cursor-pointer">
           <ChevronsUpDown size={24} />
         </span>
       </div>

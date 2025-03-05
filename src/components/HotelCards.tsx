@@ -47,7 +47,7 @@ const HotelCards = () => {
                                 </div>
                             </div>
                             <div className="flex gap-6 w-full">
-                                <div className="text-[#0D6EFD] flex gap-2">
+                                <div className="text-[#0D6EFD] flex gap-2 cursor-pointer">
                                     <MapPin />
                                     <span>Show in map</span>
                                 </div>
@@ -89,15 +89,15 @@ const HotelCards = () => {
 
                             <div className="flex justify-between items-center ">
                                 <div className="flex gap-6 items-center">
-                                    <p className="text-blue-600">
+                                    <p className="text-blue-600 cursor-pointer">
                                         Hotel details
                                     </p>
-                                    <p className="text-blue-600">
+                                    <p className="text-blue-600 cursor-pointer">
                                         Price details
                                     </p>
                                 </div>
 
-                                <p className="text-blue-600">
+                                <p className="text-blue-600 cursor-pointer">
                                     Edit details
                                 </p>
                             </div>
@@ -136,7 +136,7 @@ const HotelCards = () => {
                                 </div>
                             </div>
                             <div className="flex gap-6 w-full">
-                                <div className="text-[#0D6EFD] flex gap-2">
+                                <div className="text-[#0D6EFD] flex gap-2 cursor-pointer">
                                     <MapPin />
                                     <span>Show in map</span>
                                 </div>
@@ -178,15 +178,15 @@ const HotelCards = () => {
 
                             <div className="flex justify-between items-center ">
                                 <div className="flex gap-6 items-center">
-                                    <p className="text-blue-600">
+                                    <p className="text-blue-600 cursor-pointer">
                                         Hotel details
                                     </p>
-                                    <p className="text-blue-600">
+                                    <p className="text-blue-600 cursor-pointer">
                                         Price details
                                     </p>
                                 </div>
 
-                                <p className="text-blue-600">
+                                <p className="text-blue-600 cursor-pointer">
                                     Edit details
                                 </p>
                             </div>
