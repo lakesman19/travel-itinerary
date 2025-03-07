@@ -13,7 +13,7 @@ const Activitiescard = () => {
                 </div>
                 <p
 
-                    className="text-[#0D6EFD] rounded-[4px] bg-[white] p-3 flex justify-center cursor-pointer items-center hover:text-[#0D6EFD]"
+                    className="text-[#0D6EFD] rounded-[4px] bg-white p-3 flex justify-center cursor-pointer items-center hover:text-[#0D6EFD] w-[153px]"
                 //   onClick={onAddFlight}
                 >
                     Add Activities
@@ -46,7 +46,7 @@ const Activitiescard = () => {
                                 </div>
                             </div>
                             <div className="flex gap-6 w-full">
-                                <div className="text-[#0D6EFD] flex gap-2">
+                                <div className="text-[#0D6EFD] flex gap-2 cursor-pointer">
                                     <MapPin />
                                     <span>Directions</span>
                                 </div>
@@ -74,7 +74,7 @@ const Activitiescard = () => {
                                     </div>
                                 </div>
                                 <div className="flex gap-2 text-[#647995] text-[18px]">
-                                    <div className=" text-sm text-white rounded-[4px] p-1 flex justify-center items-center bg-[#0A369D]">
+                                    <div className=" text-sm text-white rounded-[4px] px-1 py-2 flex justify-center items-center bg-[#0A369D] w-[75px]">
                                         Day 1 - (2)
                                     </div>
                                     <div className="flex flex-col gap-1 items-center">
@@ -161,10 +161,10 @@ const Activitiescard = () => {
                                     </div>
                                 </div>
                                 <div className="flex gap-2 text-[#647995] text-[18px]">
-                                    <div className=" text-sm text-white rounded-[4px] p-1 flex justify-center items-center bg-[#0A369D]">
+                                    <div className=" text-sm text-white rounded-[4px] px-1 py-2 flex justify-center items-center bg-[#0A369D] w-[75px]">
                                         Day 2
                                     </div>
-                                    <div className="flex flex-col gap-1 items-center">
+                                    <div className="flex flex-col gap-2 items-center">
                                         <CircleChevronUp size={"16px"} className='cursor-pointer'/>
                                         <CircleChevronDown size={"16px"} className='cursor-pointer' />
                                     </div>
