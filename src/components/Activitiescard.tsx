@@ -74,7 +74,7 @@ const Activitiescard = () => {
                                     </div>
                                 </div>
                                 <div className="flex gap-2 text-[#647995] text-[18px]">
-                                    <div className=" text-sm text-white rounded-[4px] px-1 py-2 flex justify-center items-center bg-[#0A369D] w-[75px]">
+                                    <div className=" text-sm text-white rounded-[4px] px-1 py-2 flex justify-center items-center bg-[#0A369D] min-w-[75px]">
                                         Day 1 - (2)
                                     </div>
                                     <div className="flex flex-col gap-1 items-center">
@@ -161,11 +161,11 @@ const Activitiescard = () => {
                                     </div>
                                 </div>
                                 <div className="flex gap-2 text-[#647995] text-[18px]">
-                                    <div className=" text-sm text-white rounded-[4px] px-1 py-2 flex justify-center items-center bg-[#0A369D] w-[75px]">
+                                    <div className=" text-sm text-white rounded-[4px] px-1 py-2 flex justify-center items-center bg-[#0A369D] min-w-[75px]">
                                         Day 2
                                     </div>
                                     <div className="flex flex-col gap-2 items-center">
-                                        <CircleChevronUp size={"16px"} className='cursor-pointer'/>
+                                        <CircleChevronUp size={"16px"} className='cursor-pointer' />
                                         <CircleChevronDown size={"16px"} className='cursor-pointer' />
                                     </div>
                                 </div>
